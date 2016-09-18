@@ -1,4 +1,42 @@
 {
+  "stickers" : [
+    {
+      "filename" : "1@3x.sticker"
+    },
+    {
+      "filename" : "2@3x.sticker"
+    },
+    {
+      "filename" : "3@3x.sticker"
+    },
+    {
+      "filename" : "4@3x.sticker"
+    },
+    {
+      "filename" : "5@3x.sticker"
+    },
+    {
+      "filename" : "6@3x.sticker"
+    },
+    {
+      "filename" : "7@3x.sticker"
+    },
+    {
+      "filename" : "8@3x.sticker"
+    },
+    {
+      "filename" : "9@3x.sticker"
+    },
+    {
+      "filename" : "10@3x.sticker"
+    },
+    {
+      "filename" : "11@3x.sticker"
+    },
+    {
+      "filename" : "12@3x.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
