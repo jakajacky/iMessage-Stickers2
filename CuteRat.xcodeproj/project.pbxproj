@@ -107,7 +107,7 @@
 					F2D93C731D8E3778008770C7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = X342LX7QRW;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					F2D93C771D8E3779008770C7 = {
 						CreatedOnToolsVersion = 8.0;
@@ -254,12 +254,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.CuteRat.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b72c88d0-b290-401a-addf-906a5fc11d6f";
-				PROVISIONING_PROFILE_SPECIFIER = "ideabinder development";
+				PROVISIONING_PROFILE = "ecc94c52-f180-4cca-b298-f84992fd6469";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -268,12 +269,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.CuteRat.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b72c88d0-b290-401a-addf-906a5fc11d6f";
-				PROVISIONING_PROFILE_SPECIFIER = "ideabinder development";
+				PROVISIONING_PROFILE = "ecc94c52-f180-4cca-b298-f84992fd6469";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -282,12 +284,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = CuteRat/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.CuteRat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b72c88d0-b290-401a-addf-906a5fc11d6f";
-				PROVISIONING_PROFILE_SPECIFIER = "ideabinder development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -296,12 +299,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 小强 张 (7RQ9DHG6L4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = CuteRat/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.CuteRat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b72c88d0-b290-401a-addf-906a5fc11d6f";
-				PROVISIONING_PROFILE_SPECIFIER = "ideabinder development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -325,6 +330,7 @@
 				F2D93C831D8E3779008770C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2D93C851D8E3779008770C7 /* Build configuration list for PBXNativeTarget "CuteRat" */ = {
 			isa = XCConfigurationList;
@@ -333,6 +339,7 @@
 				F2D93C871D8E3779008770C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
